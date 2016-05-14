@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="Mode">
+        <enum name="Left" value="0"/>
+        <enum name="Top" value="1"/>
+        <enum name="Right" value="3"/>
+        <enum name="Buttom" value="4"/>
+    </attr>
+
+    <declare-styleable name="ExpandableLayout">
+        <attr name="el_duration" format="integer"/>
+        <attr name="el_expanded" format="boolean"/>
+        <attr name="Mode"/>
+        <attr name="layout_expandable" format="boolean"/>
+    </declare-styleable>
+</resources>
